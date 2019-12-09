@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '(o*f^-z$00bq99fry56_bblz=8ccye@u6328$@88gz-@7bkk+7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'pavantnn.pythonanywhere.com']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
     'blog',
     'disqus',
 ]
@@ -124,3 +125,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 DISQUS_API_KEY = 'fyuqOkiLZlaaZ89ofzD5OdKqIKvH0ZzrI7eWLiEnTbmK52OOPUzneKwkpDm30KOf'
 DISQUS_WEBSITE_SHORTNAME = 'blog-for-sportsmen'
+
+SITE_ID = 1
