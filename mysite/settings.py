@@ -25,7 +25,7 @@ SECRET_KEY = '(o*f^-z$00bq99fry56_bblz=8ccye@u6328$@88gz-@7bkk+7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['pavantnn.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'pavantnn.pythonanywhere.com']
 
 
 # Application definition
